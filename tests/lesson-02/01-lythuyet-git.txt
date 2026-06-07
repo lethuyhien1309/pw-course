@@ -1,0 +1,6 @@
+1. Giải thích cho các câu lệnh
+- git init: Khởi tạo repo local
+- git add <file_name>: Thêm file cụ thể vào vùng staging/vùng chuẩn bị
+- git add .: Thêm tất cả các file và hiện tại có sự thay đổi vào vùng staging
+- git commit -m "message": Thực hiện tạo ra commit mới từ các thay đổi có tại vùng chuẩn bị cùng với message 
+

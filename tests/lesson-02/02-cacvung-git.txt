@@ -1,0 +1,13 @@
+a. Tạo 3 file: file1, file2, file3 
+    -> Tạo ra 3 file là : file1, file2, file. Cả 3 file này sẽ nằm ở working Directory
+b. Chạy lệnh git init: 
+    Thực hiện khởi tạo repo. Sau khi khởi tạo, git quản lý các thay đổi tại 3 vùng: working directory, staging và repository
+c. Chạy lệnh git commit -m"init project" 
+    -> Lệnh này sẽ không thực hiện được vì là chưa có file nào được add vào vùng chuẩn bị/staging
+d. Chạy lệnh: git add file1 
+    -> Đưa file1 vào vùng staging
+e: Chạy lệnh: git commit -m"add file1" 
+    -> Tạo 1 phiên bản với file1 cùng với message 
+f. Chạy lệnh git commit -m"add file" 
+    -> Không đẩy được. Vì vùng chuẩn bị lúc này chưa chứa file2 và file3(vì 2 file này vẫn đang nằm ở vùng working)->  vùng staging đang bị rỗng
+    Nên khi chạy câu lệnh trên sẽ không có gì để commit cả
